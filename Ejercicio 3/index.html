@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3</title>
+</head>
+
+<body>
+    <h1>Registro de Bebidas</h1>
+
+    <form>
+        <label for="fecha">Fecha:</label><br>
+        <input type="date" id="fecha" name="fecha"><br>
+        <label for="bebida">Tipo de Bebida:</label><br>
+        <input type="text" id="bebida" name="bebida"><br>
+        <label for="cantidad">Cantidad:</label><br>
+        <input type="text" id="cantidad" name="cantidad">
+        <button id= "enviar" onclick="Enviar()"> Enviar </button>
+        <br><br>
+
+
+        <table id="drinktable">
+            <tr>
+                <th> fecha</th>
+                <th> bebida</th>
+                <th> cantidad</th>
+                <th> mensaje</th>
+            </tr>
+        </table>
+        <script src="script.js"></script>
+      </form>
+
+    
+</body>
+
+</html>
